@@ -14,9 +14,112 @@
             <a href="#buttons">Tlačítka</a>
             <a href="#carts">Karty</a>
             <a href="#tables">Tabulky</a>
-            
+
         </div>
     </nav>
+    <header>
+        <h1>Vítejte na mé Bootstrap 5 stránce</h1>
+        <p>Budu zde prezentovat vybrané komponenty.. protože musím</p>
+        <a href="#buttons" class="btn btn-light btn-lg">Začít</a>
+    </header>
+
+    <!--Sekce: Tlačítka-->
+    <section class="container" id="buttons">
+        <h2>Tlačítka</h2>
+        <p>Bootstrap umožňuje snadné stylování tlačítek pomocí tříd jako  <code>btn-primary, ...</code></p>
+
+        <!--Ukázka tlačítek-->
+        <div>
+            <button class="btn btn-primary">Primary button</button>
+            <button class="btn btn-warning">Warning button</button>
+        </div>
+
+        <!--Kód tlačítek-->
+        <div>
+            <pre>
+                <code>
+                    &lt;button class="btn btn-primary"&gt;Primary button&lt;/button&gt;
+                    &lt;button class="btn btn-warning"&gt;Warning button&lt;/button&gt;
+                </code>
+            </pre>
+        </div>
+    </section>
+
+    <!--Sekce: Karty-->
+    <section class="container" id="cards">
+        <h2>Karty</h2>
+        <p>Katra v bootstrap je super způsob jak strukturovat obsah</p>
+
+        <!--Ukázka karet-->
+        <div class="card mx-auto">
+            <div class="card-body">
+                <h3 class="card-title">Ukázková karta 01</h3>
+                <p class="card-text">Toto je úkázka karty v bootstrap</p>
+                <a class="btn btn-info" href="#">Detail</a>
+            </div>
+        </div>
+
+        <!--Kód karet-->
+        <div>
+            <pre>
+                <code>
+                    &lt;div class="card mx-auto"&gt;
+                        &lt;div class="card-body"&gt;
+                            &lt;h3 class="card-title"&gt;Ukázková karta 01&lt;/h3&gt;
+                            &lt;p class="card-text"&gt;Toto je úkázka karty v bootstrap&lt;/p&gt;
+                            &lt;a class="btn btn-info" href="#"&gt;Detail&lt;/a&gt;
+                        &lt;/div&gt;
+                    &lt;/div&gt;
+                </code>
+            </pre>
+        </div>
+    </section>
+
+    <!--Sekce: Tabulky-->
+    <section class="container" id="tables">
+        <h2>Tabulky</h2>
+        <p>Tabulky v bootstrap jsou.. no.. něco</p>
+
+        <!--Ukázka karet-->
+        <div>
+            <table class="table table-striped table-hover">
+                <thead>
+                    <tr>
+                        <th>#</th>
+                        <th>Jméno a Příjmení</th>
+                        <th>Email</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>Jan Novák</td>
+                        <td>jan.nova@email.cz</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>Petr Novák</td>
+                        <td>petr.novak@email.cz</td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>Tomáš Novák</td>
+                        <td>tomas.novak@email.cz</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <!--Kód karet-->
+        <div>
+            <pre>
+                <code>
+                    
+                </code>
+            </pre>
+        </div>
+    </section>
+
 </body>
 <footer>
     <!--Stránka se načítá sekvenčně, takže se nejdříve načte obsah a až pak bootstrap-->
